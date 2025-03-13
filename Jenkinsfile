@@ -1,5 +1,5 @@
 // correct Jenkinsfile
-
+/*
 pipeline {
     agent any  
     
@@ -30,10 +30,10 @@ pipeline {
         }
     }
 }
-
+*/
 
 // incorrect Jenkinsfile
-/*
+
 pipeline {
     agent {
         docker {
@@ -70,4 +70,4 @@ pipeline {
         }
     }
 }
-*/
+
